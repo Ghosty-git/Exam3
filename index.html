@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <h1>Lucas Montana</h1>
+        </div>
+    </header>
+    <div class="form-overlay"></div>
+    <form action="" class="form">
+        <div class="form__container">
+            <h2 class="form__title">Contact me</h2>
+            <p>Curabitur blandit tempus porttitor. Vollis ac inceptos mollisestor commodo luctus. Curabitur blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+            <div class="form__inputs">
+                <input type="text" class="form__input form__input_name" placeholder="Your name...">
+                <input type="email" class="form__input form__input_email" placeholder="Your email..." >
+            </div>
+            <textarea name="textarea" class="form__textarea"></textarea>
+            <button class="form__btn">send message</button>
+        </div>
+    </form>
+    <main class="main">
+        <section class="profile">
+            <div class="profile__container container">
+                <picture class="profile__ava">
+                    <source media="(max-width:375px)" srcset="./assets/img/ava-mobile.png">
+                    <source media="(max-width:376px)" srcset="./assets/img/ava-mobile.png">
+                    <source media="(max-width:900px)" srcset="./assets/img/ava-tablet.png">
+                    <source media="(max-width:1440px)" srcset="./assets/img/ava-desktop.png">
+                
+                    <img src="./assets/img/ava-mobile.png" class= "info__image" alt="Denis Novik">
+                </picture>
+                <div class="profile__body">
+                    <h2 class="profile__title">Hey. I'm Lucas <br> And I'm a professional photographer</h2>
+                    <h3 class="profile__subtitle">Curabitur blanit tempus porttitor. Vollis ac inceptos mollisestor commodo luctus. </h2>
+                    <p>Curabitur blandit tempus porttitor. Vollis ac inceptos mollisestor commodo luctus. Curabitur blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vestibulum id ligulas semper. Cum sociis natoque penatibus et magnis maecenas. Donec ullamcorper nulla non metus auctor fringilla. </p>
+                    <button class="profile__btn">Contact me</button>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio">
+            <div class="portfolio__container container">
+                <h2 class="portfolio__title">Portfolio</h2>
+                <h3 class="portfolio__subtitle">Curabitur blandit tempus porttitor. Vollis ac inceptos mollisestor commodo luctus. Curabitur blandit  <p>tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p></h3>
+                <div class="portfolio__items">
+                    <img src="./assets/img/portfolio/item1.png" alt="img">
+                    <img src="./assets/img/portfolio/item2.png" alt="img">
+                    <picture class="profile__ava">
+                        <source media="(max-width:375px)" srcset="./assets/img/portfolio/item5.png">
+                        <source media="(max-width:376px)" srcset="./assets/img/portfolio/item5.png">
+                        <source media="(min-width:900px)" srcset="./assets/img/portfolio/item3.png">
+                    
+                        <img src="./assets/img/portfolio/item3.png" class= "info__image" alt="Denis Novik">
+                    </picture>
+                    <picture class="profile__ava">
+                        <source media="(max-width:375px)" srcset="./assets/img/portfolio/item6.png">
+                        <source media="(max-width:376px)" srcset="./assets/img/portfolio/item6.png">
+                        <source media="(min-width:900px)" srcset="./assets/img/portfolio/item4.png">
+                    
+                        <img src="./assets/img/portfolio/item4.png" class= "info__image" alt="Denis Novik">
+                    </picture>
+                    <picture class="profile__ava">
+                        <source media="(max-width:375px)" srcset="./assets/img/portfolio/item3.png">
+                        <source media="(max-width:376px)" srcset="./assets/img/portfolio/item3.png">
+                        <source media="(min-width:900px)" srcset="./assets/img/portfolio/item5.png">
+                    
+                        <img src="./assets/img/portfolio/item5.png" class= "info__image" alt="Denis Novik">
+                    </picture>
+                    <picture class="profile__ava">
+                        <source media="(max-width:375px)" srcset="./assets/img/portfolio/item4.png">
+                        <source media="(max-width:376px)" srcset="./assets/img/portfolio/item4.png">
+                        <source media="(min-width:900px)" srcset="./assets/img/portfolio/item6.png">
+                    
+                        <img src="./assets/img/portfolio/item6.png" class= "info__image" alt="Denis Novik">
+                    </picture>
+                    <picture class="profile__ava">
+                        <source media="(max-width:375px)" srcset="./assets/img/portfolio/item3.png">
+                        <source media="(max-width:376px)" srcset="./assets/img/portfolio/item3.png">
+                        <source media="(min-width:900px)" srcset="./assets/img/portfolio/item7.png">
+                    
+                        <img src="./assets/img/portfolio/item5.png" class= "info__image" alt="Denis Novik">
+                    </picture>
+                    <picture class="profile__ava">
+                        <source media="(max-width:375px)" srcset="./assets/img/portfolio/item4.png">
+                        <source media="(max-width:376px)" srcset="./assets/img/portfolio/item4.png">
+                        <source media="(min-width:900px)" srcset="./assets/img/portfolio/item8.png">
+                    
+                        <img src="./assets/img/portfolio/item6.png" class= "info__image" alt="Denis Novik">
+                    </picture>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer_top">
+            <img src="./assets/img/footer-ava.png" alt="ava">
+            <div class="footer__body">
+                <div class="footer__name">Lucas Montana</div>
+                <div class="footer__number">+4 768 25 25 255</div>
+                <div class="footer__country">Poland, Warsaw</div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <p>All rights reserved. “World Photos”, Inc</p>
+        </div>
+    </footer>
+    
+</body>
+<script src="./js/script.js"></script>
+</html>
